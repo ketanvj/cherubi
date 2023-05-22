@@ -15,6 +15,7 @@ public class MyFirstSeleniumTest {
 
 		 WebDriver driver = new FirefoxDriver();
 		//WebDriver driver = new FirefoxDriver();
+		WebDriverwait wait = new WebDriverWait();
 		// WebDriver is an interface. WebDriver represents your browser
 
 		// 2. Go to the url
