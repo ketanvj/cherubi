@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-//This is a good change. 
+//This is a good change. I want to change again. 
 //This is also a good change. 
 //This is a second good change. Now the same line. 
 public class MyFirstWebDriverTest {
@@ -30,7 +30,7 @@ public class MyFirstWebDriverTest {
 		password.submit();
 		String expectedPageTitleAfterLogin = "My account";
 		String actualPageTitleAfterLogin = driver.getTitle();
-
+		//Below if statement does the verification of the test cases.
 		if (expectedPageTitleAfterLogin.equals(actualPageTitleAfterLogin)) {
 			System.out.println("Test Case passsed.");
 		} else {
