@@ -30,7 +30,7 @@ public class MyFirstWebDriverTest {
 		password.submit();
 		String expectedPageTitleAfterLogin = "My account";
 		String actualPageTitleAfterLogin = driver.getTitle();
-
+		//Below if statement does the verification of the test cases.
 		if (expectedPageTitleAfterLogin.equals(actualPageTitleAfterLogin)) {
 			System.out.println("Test Case passsed.");
 		} else {
