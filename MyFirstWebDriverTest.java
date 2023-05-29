@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-//This is a good change. 
+//This is a good change. This is not a good change. 
 //This is also a good change. 
 //This is a second good change. Now the same line. 
 public class MyFirstWebDriverTest {
@@ -13,7 +13,7 @@ public class MyFirstWebDriverTest {
 	public static void main(String[] args) {
 		// Open Chrome Browser
 //		System.setProperty("webdriver.chrome.driver",
-//				"test\\resources\\chromedriver.exe");
+//				"test\\resources\\chromedriver.exe"); //This no longer needed with latest Selenium
 		//System.setProperty("webdriver.chrome.verboseLogging", "true");
 		WebDriver driver = new ChromeDriver(); // Opens the chrome browser
 		driver.manage().window().maximize();
